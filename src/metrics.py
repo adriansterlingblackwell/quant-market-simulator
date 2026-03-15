@@ -13,7 +13,7 @@ def calculate_metrics(sim_df, initial_cash):
     max_drawdown = drawdown.min()
 
     trade_count = (sim_df["action"] != "HOLD").sum()
-
+    
     return {
         "final_equity": final_equity,
         "total_return": total_return,
