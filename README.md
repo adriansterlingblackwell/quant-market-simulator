@@ -22,7 +22,6 @@ Each step is separated into individual modules to keep the system readable, exte
 
 ```
 quant-market-simulator/
-
 config.py
 main.py
 
